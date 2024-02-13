@@ -2,6 +2,7 @@
   "name": "react-native-pin-input",
   "version": "0.1.0",
   "description": "Simple PIN input component for React Native apps.",
+  "private": "false",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
