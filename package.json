@@ -1,8 +1,7 @@
 {
-  "name": "react-native-pin-input",
+  "name": "react-native-pintyper",
   "version": "0.1.0",
   "description": "Simple PIN input component for React Native apps.",
-  "private": "false",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -41,14 +40,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yaay/react-native-pin-input.git"
+    "url": "git+https://github.com/yaay/react-native-pintyper.git"
   },
   "author": "Yehia Nabil <yehn@outlook.com> (https://github.com/yaay)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yaay/react-native-pin-input/issues"
+    "url": "https://github.com/yaay/react-native-pintyper/issues"
   },
-  "homepage": "https://github.com/yaay/react-native-pin-input#readme",
+  "homepage": "https://github.com/yaay/react-native-pintyper#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

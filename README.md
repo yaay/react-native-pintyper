@@ -1,18 +1,18 @@
-# react-native-pin-input
+# react-native-pintyper
 
 Simple PIN input component for React Native apps.
 
 ## Installation
 
 ```sh
-npm install react-native-pin-input
+npm install react-native-pintyper
 ```
 
 ## Usage
 
 ```jsx
 import React, { useState } from 'react';
-import PinInput from 'react-native-pin-input';
+import Pintyper from 'react-native-pintyper';
 
 const YourComponent = () => {
   const handlePinEntered = (pin) => {
@@ -21,7 +21,7 @@ const YourComponent = () => {
   };
 
   return (
-    <PinInput
+    <Pintyper
       onPinEntered={handlePinEntered}
       numberOfDigits={5}
       containerProps={{ /* Additional View props */ }}
@@ -58,5 +58,3 @@ See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the 
 MIT
 
 ---
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)

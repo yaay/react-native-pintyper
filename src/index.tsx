@@ -1,3 +1,3 @@
-import PinInput from "./components/PinInput";
+import Pintyper from './components/Pintyper';
 
-export { PinInput };
+export { Pintyper };
