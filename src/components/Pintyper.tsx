@@ -63,13 +63,13 @@ const Pintyper: React.FC<PintyperProps> = ({
   };
 
   return (
-    <View {...containerProps} style={[containerStyle, styles.pinContainer]}>
+    <View {...containerProps} style={[styles.pinContainer, containerStyle]}>
       {pin.map((digit, index) => (
         <TextInput
           {...inputProps}
           key={index}
           ref={(ref) => (inputRefs.current[index] = ref)}
-          style={[inputStyle, styles.pinBox]}
+          style={[styles.pinBox, inputStyle]}
           keyboardType="numeric"
           maxLength={1}
           onChangeText={(text) => handlePinChange(index, text)}

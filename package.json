@@ -1,6 +1,6 @@
 {
   "name": "react-native-pintyper",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Simple PIN input component for React Native apps.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -34,9 +34,14 @@
     "release": "release-it"
   },
   "keywords": [
+    "react",
     "react-native",
     "ios",
-    "android"
+    "android",
+    "pin",
+    "pincode",
+    "javascript",
+    "textinput"
   ],
   "repository": {
     "type": "git",

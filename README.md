@@ -7,6 +7,10 @@ Simple PIN input component for React Native apps.
 ```sh
 npm install react-native-pintyper
 ```
+Or
+```sh
+yarn add react-native-pintyper
+```
 
 ## Usage
 
